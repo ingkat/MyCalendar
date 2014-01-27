@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Calendar">
-                <param name="android-package" value="com.sencha.plugins.Calendar"/>
+                <param name="android-package" value="com.sencha.plugins.calendar.Calendar"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Calendar.java" target-dir="src/com/sencha/plugins" />
+        <source-file src="src/android/Calendar.java" target-dir="src/com/sencha/plugins/calendar" />
     </platform>
 </plugin>
